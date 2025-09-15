@@ -5,6 +5,13 @@
 
 
 def main():
+ num = user_input_str = input("Enter the temperature in Fahrenheit")
+
+(num - 32) * 5/9
+num = num * 100 
+num = int(num) 
+num = num / 100.0 
+print(num)
 
   #Prompt the user for a Fahrenheit temperature
 
@@ -12,13 +19,8 @@ def main():
  
   #Output converted temperature.
 
-  print(tempF, "is ", tempC, "degrees celsius.")
+print(tempF, "is ", tempC, "degrees celsius.")
 if __name__ == '__main__':
   main()
-num = float(print("Enter the temperature in Fahrenheit: "))
-(num - 32) * 5/9
-num = num * 100 
-num = int(num) 
-num = num / 100.0 
-print(num)
+
 

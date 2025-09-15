@@ -8,7 +8,6 @@ def main():
   wins = 0
   ties = 0
   losses = 0
-
 game = input("Want to play Rock Paper Scissors? (Yes/No):")
 if game == "Yes": 
   elif print("Goodbye!") == "No":
@@ -39,7 +38,6 @@ if game == "Yes":
     print("Must play again! We both played Scissors!")
   else:
     print("Not a choice.")    
-
   outcome = random.choice(["win", "lose", "tie"])
   if outcome == "win":
         print("You won this round!")
@@ -50,19 +48,15 @@ if game == "Yes":
   else :outcome == "tie" 
   print("This round was a tie!")
   ties += 1
-
   user_input = input("Would you like to play again? (yes/no): ").lower()
   if user_input != 'yes':
         play_again = False       
-
   #Create a loop that continues as long as the user wants to play.
   #User can play as many games as they wish.
-
   #Randomly choose the computer between 'R', 'P', or 'S'
   #Prompt the user for their RPS selection
   #Determine winner and state what happened to the user
   #Ask the user if they would like to play again.
-
   #In the end, print the stats
 print("Wins \t Ties \t Losses")
 print("---- \t ---- \t ------")
