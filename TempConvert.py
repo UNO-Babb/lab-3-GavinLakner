@@ -12,13 +12,9 @@ num = num * 100
 num = int(num) 
 num = num / 100.0 
 print(num)
-
   #Prompt the user for a Fahrenheit temperature
-
   #Convert that temperature to celsius, rounding to 1 decimal percision
- 
   #Output converted temperature.
-
 print(tempF, "is ", tempC, "degrees celsius.")
 if __name__ == '__main__':
   main()
